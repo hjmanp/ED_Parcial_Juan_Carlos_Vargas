@@ -1,0 +1,10 @@
+2026.02.27 00:00:15 INFO  Started: Metals version 1.6.5 in folders '/Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas' for client Visual Studio Code 1.109.4.
+2026.02.27 00:00:15 INFO  Memory monitor started
+2026.02.27 00:00:15 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.27 00:00:16 WARN  no build tool detected in workspace '/Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.02.27 00:00:16 WARN  Build server is not auto-connectable.
+2026.02.27 00:00:16 WARN  no build target for: /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/benchmark/Main.java
+2026.02.27 00:00:17 WARN  Running javac-semanticdb failed for file:///Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi%20unidad/DOCS/D/03%20S/Estructura%20de%20datos%201/Parcial%201/ED_Parcial_Juan_Carlos_Vargas/src/benchmark/Main.java. Output:
+
+feb 27, 2026 12:01:40 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
