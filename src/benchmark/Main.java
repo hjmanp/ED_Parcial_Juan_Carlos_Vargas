@@ -2,6 +2,7 @@ package benchmark;
 
 import algorithms.Fibonacci;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,10 +15,10 @@ import java.io.PrintWriter;
  * mide sus tiempos y exporta los resultados a un archivo CSV.
  *
  * CÓMO COMPILAR (desde la carpeta raíz del proyecto):
- *   javac -d out src/algorithms/Fibonacci.java src/benchmark/Medidor.java src/benchmark/Main.java
+ * javac -d out src/algorithms/Fibonacci.java src/benchmark/Medidor.java src/benchmark/Main.java
  *
  * CÓMO EJECUTAR:
- *   java -cp out benchmark.Main
+ * java -cp out benchmark.Main
  * ============================================================
  */
 public class Main {
@@ -29,11 +30,12 @@ public class Main {
      * Valores de n para los que se ejecutará el benchmark.
      *
      * ITERATIVO: puede manejar n grandes (hasta ~92 con long)
-     * RECURSIVO: limitado a n ≤ 30 por la complejidad O(2^n)
-     *   fib(30) → ~2.7 millones de llamadas
-     *   fib(40) → ~2.7 mil millones de llamadas (tarda minutos)
+     * RECURSIVO: limitado a n ≤ 40 por la complejidad O(2^n)
+     * fib(30) → ~2.7 millones de llamadas
+     * fib(40) → ~2.7 mil millones de llamadas (tarda minutos)
      */
-    private static final int[] TAMANOS = {5, 10, 15, 20, 25, 30};
+    // SUGERENCIA: Se agregó el 35 para notar bien el disparo exponencial del tiempo
+    private static final int[] TAMANOS = {5, 10, 15, 20, 25, 30, 35};
 
     /** Ruta del archivo de resultados */
     private static final String CSV_PATH = "resultados/tiempos.csv";
@@ -44,11 +46,16 @@ public class Main {
     public static void main(String[] args) {
         imprimirBanner();
 
+        // 1. FASE DE CALENTAMIENTO (Mejora Crítica)
+        System.out.println("Iniciando fase de calentamiento de la JVM...");
+        calentarJVM();
+        System.out.println("Calentamiento terminado. Iniciando benchmark real...\n");
+
         StringBuilder csv = new StringBuilder();
         csv.append("Algoritmo,Version,n,Resultado,Tiempo_ms\n");
 
         // ---- FIBONACCI ITERATIVO ----
-        System.out.println("\n  FIBONACCI ITERATIVO  [O(n)]");
+        System.out.println("  FIBONACCI ITERATIVO  [O(n)]");
         Medidor.imprimirEncabezado();
 
         for (int n : TAMANOS) {
@@ -80,10 +87,10 @@ public class Main {
 
         // ---- ANÁLISIS DE DIFERENCIA ----
         System.out.println("\n  COMPARACIÓN ITERATIVO vs RECURSIVO");
-        System.out.println("-".repeat(60));
+        System.out.println("-".repeat(65));
         System.out.printf("%-8s | %-14s | %-14s | %s%n",
                 "n", "Iterativo (ms)", "Recursivo (ms)", "Recursivo / Iterativo");
-        System.out.println("-".repeat(60));
+        System.out.println("-".repeat(65));
 
         for (int n : TAMANOS) {
             final int fn = n;
@@ -106,16 +113,39 @@ public class Main {
     // ----------------------------------------------------------------
     // AUXILIARES
     // ----------------------------------------------------------------
+    
+    /**
+     * Calienta la JVM ejecutando los algoritmos varias veces antes de medir.
+     * Esto permite que el compilador JIT optimice el código y las métricas
+     * de tiempo sean mucho más precisas y estables.
+     */
+    private static void calentarJVM() {
+        for (int i = 0; i < 10000; i++) {
+            Fibonacci.iterativo(20);
+        }
+        for (int i = 0; i < 100; i++) {
+            Fibonacci.recursivo(20);
+        }
+    }
+
     private static void imprimirBanner() {
         System.out.println("============================================================");
-        System.out.println("  ESTRUCTURA DE DATOS — BENCHMARK FIBONACCI");
+        System.out.println("  ESTRUCTURA DE DATOS 1 — BENCHMARK FIBONACCI");
         System.out.println("  Universidad Da Vinci de Guatemala");
-        System.out.println("  Ing. Brandon Chitay");
+        System.out.println("  Juan Carlos Vargas");
         System.out.println("============================================================");
     }
 
     private static void exportarCSV(String contenido) {
-        try (PrintWriter pw = new PrintWriter(new FileWriter(CSV_PATH))) {
+        // 2. PREVENCIÓN DE ERRORES: Crea la carpeta si no existe
+        File archivoCsv = new File(CSV_PATH);
+        File directorio = archivoCsv.getParentFile();
+        
+        if (directorio != null && !directorio.exists()) {
+            directorio.mkdirs(); 
+        }
+
+        try (PrintWriter pw = new PrintWriter(new FileWriter(archivoCsv))) {
             pw.print(contenido);
             System.out.println("\n  ✓ CSV generado exitosamente en: " + CSV_PATH);
         } catch (IOException e) {
