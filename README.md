@@ -18,7 +18,7 @@ El programa ejecuta cada algoritmo con distintos volúmenes de datos (n). Para g
 ## 🎥 Video de Demostración
 En el siguiente video se explica la estructura del código, la compilación, la ejecución y el análisis de las gráficas de rendimiento resultantes:
 
-* **Enlace a YouTube:** [https://youtu.be/ejemplo_video_parcial](https://youtu.be/ejemplo_video_parcial) *(← Reemplaza este link con el tuyo cuando subas el video)*
+* **Enlace a YouTube:** [👉 COLOCA TU ENLACE AQUÍ 👈]
 
 ---
 
