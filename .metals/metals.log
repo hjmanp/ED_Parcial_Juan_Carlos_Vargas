@@ -9,3 +9,41 @@
 feb 27, 2026 12:01:40 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTrace
 2026.02.27 00:03:02 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/benchmark/Main.java. Using fallback presentation compiler.
+feb 27, 2026 12:14:22 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.02.27 17:39:03 INFO  Shutting down server
+2026.02.27 17:39:03 INFO  Memory monitor stopped
+2026.02.27 17:39:03 INFO  shutting down Metals
+2026.02.27 17:39:03 INFO  Exiting server
+2026.03.01 23:54:01 INFO  Started: Metals version 1.6.5 in folders '/Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas' for client Visual Studio Code 1.109.5.
+2026.03.01 23:54:01 INFO  Memory monitor started
+2026.03.01 23:54:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.01 23:54:01 WARN  no build tool detected in workspace '/Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.01 23:54:01 WARN  Build server is not auto-connectable.
+2026.03.01 23:54:01 WARN  no build target for: /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java
+2026.03.01 23:54:02 WARN  Running javac-semanticdb failed for file:///Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi%20unidad/DOCS/D/03%20S/Estructura%20de%20datos%201/Parcial%201/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Output:
+
+2026.03.01 23:54:05 WARN  no build target for: /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java
+2026.03.01 23:54:05 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.01 23:54:05 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.01 23:54:05 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.01 23:54:05 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.01 23:54:22 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.01 23:54:24 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.01 23:54:31 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/BusquedaLineal.java. Using fallback presentation compiler.
+2026.03.02 16:22:58 WARN  no build target for: /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java
+2026.03.02 16:22:58 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:22:58 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:22:58 WARN  Running javac-semanticdb failed for file:///Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi%20unidad/DOCS/D/03%20S/Estructura%20de%20datos%201/Parcial%201/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Output:
+
+2026.03.02 16:22:58 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:22:59 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:23:08 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:23:27 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:23:27 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 16:23:30 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 22:22:22 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 22:22:22 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+2026.03.02 23:26:27 INFO  no build target found for /Users/juanc.vargash/Library/CloudStorage/GoogleDrive-jcarlo.vh@gmail.com/Mi unidad/DOCS/D/03 S/Estructura de datos 1/Parcial 1/ED_Parcial_Juan_Carlos_Vargas/src/algorithms/Factorial.java. Using fallback presentation compiler.
+mar 02, 2026 11:26:40 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
