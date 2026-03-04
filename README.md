@@ -41,6 +41,6 @@ Ejecuta el siguiente comando para compilar todos los archivos fuente e indicarle
 
 javac -d out src/algorithms/*.java src/utils/*.java src/benchmark/*.java
 
-### Paso32: ejecutar el código
-Ejecuta el siguiente comando para compilar todos los archivos fuente e indicarle a Java que los guarde en la carpeta `out`:
+### Paso3: ejecutar el código
+Ejecuta el siguiente comando para que corran las salidas de los tiempos:
 java -cp out benchmark.Main
