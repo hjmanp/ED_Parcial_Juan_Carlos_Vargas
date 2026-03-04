@@ -1,41 +1,41 @@
 Algoritmo,Version,n,Tiempo_ms
-Factorial,Iterativo,5,0.018467
-Factorial,Recursivo,5,0.000450
-Factorial,Iterativo,10,0.000213
-Factorial,Recursivo,10,0.000488
+Factorial,Iterativo,5,0.052604
+Factorial,Recursivo,5,0.000463
+Factorial,Iterativo,10,0.000221
+Factorial,Recursivo,10,0.000450
 Factorial,Iterativo,15,0.000233
-Factorial,Recursivo,15,0.000738
-Factorial,Iterativo,20,0.001388
-Factorial,Recursivo,20,0.000954
-Fibonacci,Iterativo,5,0.024513
-Fibonacci,Recursivo,5,0.000742
-Fibonacci,Iterativo,10,0.000238
-Fibonacci,Recursivo,10,0.006488
-Fibonacci,Iterativo,15,0.000288
-Fibonacci,Recursivo,15,0.008175
-Fibonacci,Iterativo,20,0.000279
-Fibonacci,Recursivo,20,0.034400
-Fibonacci,Iterativo,25,0.000346
-Fibonacci,Recursivo,25,0.263554
-Fibonacci,Iterativo,30,0.000354
-Fibonacci,Recursivo,30,3.005850
-Busqueda Lineal,Iterativo,100,0.021604
-Busqueda Lineal,Recursivo,100,0.003783
-Busqueda Lineal,Iterativo,500,0.004467
-Busqueda Lineal,Recursivo,500,0.005525
-Busqueda Lineal,Iterativo,1000,0.008867
-Busqueda Lineal,Recursivo,1000,0.003833
-Busqueda Lineal,Iterativo,5000,0.042696
-Busqueda Lineal,Recursivo,5000,0.019825
-Busqueda Lineal,Iterativo,10000,0.030425
-Busqueda Lineal,Recursivo,10000,0.051458
-Burbuja,Iterativo,100,0.170138
-Burbuja,Recursivo,100,0.051917
-Burbuja,Iterativo,500,0.419829
-Burbuja,Recursivo,500,0.164004
-Burbuja,Iterativo,1000,0.612263
-Burbuja,Recursivo,1000,0.658400
-Burbuja,Iterativo,5000,10.951242
-Burbuja,Recursivo,5000,12.474058
-Burbuja,Iterativo,10000,46.243596
-Burbuja,Recursivo,10000,63.358392
+Factorial,Recursivo,15,0.001700
+Factorial,Iterativo,20,0.001642
+Factorial,Recursivo,20,0.001325
+Fibonacci,Iterativo,5,0.059321
+Fibonacci,Recursivo,5,0.001233
+Fibonacci,Iterativo,10,0.000321
+Fibonacci,Recursivo,10,0.026892
+Fibonacci,Iterativo,15,0.000717
+Fibonacci,Recursivo,15,0.011317
+Fibonacci,Iterativo,20,0.000296
+Fibonacci,Recursivo,20,0.030883
+Fibonacci,Iterativo,25,0.000842
+Fibonacci,Recursivo,25,0.307404
+Fibonacci,Iterativo,30,0.000417
+Fibonacci,Recursivo,30,3.449638
+Busqueda Lineal,Iterativo,100,0.064704
+Busqueda Lineal,Recursivo,100,0.003979
+Busqueda Lineal,Iterativo,500,0.006833
+Busqueda Lineal,Recursivo,500,0.009683
+Busqueda Lineal,Iterativo,1000,0.008917
+Busqueda Lineal,Recursivo,1000,0.004325
+Busqueda Lineal,Iterativo,5000,0.044209
+Busqueda Lineal,Recursivo,5000,0.023762
+Busqueda Lineal,Iterativo,10000,0.035904
+Busqueda Lineal,Recursivo,10000,0.049213
+Burbuja,Iterativo,100,0.174204
+Burbuja,Recursivo,100,0.036992
+Burbuja,Iterativo,500,0.616150
+Burbuja,Recursivo,500,0.292242
+Burbuja,Iterativo,1000,0.717767
+Burbuja,Recursivo,1000,0.767212
+Burbuja,Iterativo,5000,13.891183
+Burbuja,Recursivo,5000,14.131925
+Burbuja,Iterativo,10000,59.829883
+Burbuja,Recursivo,10000,79.771979

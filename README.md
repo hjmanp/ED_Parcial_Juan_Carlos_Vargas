@@ -18,7 +18,7 @@ El programa ejecuta cada algoritmo con distintos volúmenes de datos (n). Para g
 ## 🎥 Video de Demostración
 En el siguiente video se explica la estructura del código, la compilación, la ejecución y el análisis de las gráficas de rendimiento resultantes:
 
-* **Enlace a YouTube:** [👉 COLOCA TU ENLACE AQUÍ 👈]
+* **Enlace a YouTube:** [👉 https://youtu.be/GyBh2k2b9aI 👈]
 
 ---
 
@@ -38,5 +38,9 @@ Ubícate en la carpeta raíz del proyecto (donde se encuentra este archivo READM
 ### Paso 2: Compilar el código
 Ejecuta el siguiente comando para compilar todos los archivos fuente e indicarle a Java que los guarde en la carpeta `out`:
 
-```bash
+
 javac -d out src/algorithms/*.java src/utils/*.java src/benchmark/*.java
+
+### Paso32: ejecutar el código
+Ejecuta el siguiente comando para compilar todos los archivos fuente e indicarle a Java que los guarde en la carpeta `out`:
+java -cp out benchmark.Main
